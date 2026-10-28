@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+build/
+frontend/dist/
+
+# Uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment variables
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
